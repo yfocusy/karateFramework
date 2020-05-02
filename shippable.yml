@@ -31,8 +31,8 @@ build:
 #    pull: true
     - mkdir -p shippable/testresults
     - mkdir -p shippable/codecoverage
-#    - mkdir -p shippable/target
-#    - mkdir -p shippable/yulitarget
+    - mkdir -p shippable/target
+    - mkdir -p shippable/yulitarget
     - ls
     - cd shippable
     - ls
@@ -41,7 +41,7 @@ build:
     - shippable_retry mvn clean install
     - shippable_retry mvn clean test -Dtest=DemoRunner cobertura:cobertura
 #    - shippable_retry mvn clean cobertura:cobertura
-    - cp -r target shippable/yulitarget
+#    - cp -r target shippable/yulitarget
     - cp -r $SHIPPABLE_BUILD_DIR/target ./shippable/target
 #    - cp -r target/
 #    - cp -r target/surefire-reports shippable/yulitestresults
@@ -55,5 +55,14 @@ build:
 #    - ls
     - cd ../../shippable
     - ls
+    - cd target
+    - ls
+    - cd ../buildoutput
+    - ls
+    - cd ../codecoverage
+    - ls
+    - cd ../testresults
+    - ls
+
 
 
