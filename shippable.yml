@@ -59,16 +59,17 @@ build:
     - cd cobertura
     - ls
     - pwd
-    - cd ~
+    - cd $SHIPPABLE_BUILD_DIR/target
+    - pwd
     - ls
-    - cd ~/shippable/target/surefire-reports
-    - ls
-    - cd ./shippable/buildoutput
-    - ls
-    - cd ./shippable/codecoverage
-    - ls
-    - cd ./shippable/testresults
-    - ls
+#    - cd ~/shippable/target/surefire-reports
+#    - ls
+#    - cd ./shippable/buildoutput
+#    - ls
+#    - cd ./shippable/codecoverage
+#    - ls
+#    - cd ./shippable/testresults
+#    - ls
 
 #  post_ci:
 #    - echo "Checking Files"
