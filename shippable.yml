@@ -20,11 +20,11 @@ branches:
 
 
 build:
-#
+
 #  cache: true
 #  cache_dir_list:
 #    - /root/.m2
-#
+
   pre_ci:
 #    image_name: xxxxx
 #    image_tag: latest
@@ -42,9 +42,12 @@ build:
     - cp -r target shippable/coverage
 #    - cp -r target/surefire-reports shippable/yulitestresults
 
-#  post_ci:
-#    - sss
-#    - sss
+  post_ci:
+    - ls
+    - cd shippable/coverage
+    - ls
+    - cd shippable/surefire-reports
+    - ls
 #
 #  on_success:
 #
