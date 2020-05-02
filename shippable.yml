@@ -32,7 +32,10 @@ build:
     - mkdir -p shippable/testresults
     - mkdir -p shippable/coverage
     - mkdir -p shippable/yulitestresults
-    
+    - ls
+    - cd shippable
+    - ls
+
   ci:
     - shippable_retry mvn install
     - shippable_retry mvn clean test
