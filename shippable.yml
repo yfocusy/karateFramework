@@ -30,7 +30,7 @@ build:
 #    image_tag: latest
 #    pull: true
     - mkdir -p shippable/testresults
-#    - mkdir -p shippable/coverage
+    - mkdir -p shippable/codecoverage
     - mkdir -p shippable/target
     - mkdir -p shippable/yulitarget
     - ls
@@ -39,7 +39,8 @@ build:
 
   ci:
     - shippable_retry mvn clean install
-    - shippable_retry mvn test
+#    - shippable_retry mvn test
+    - shippable_retry mvn clean cobertura:cobertura
     - cp -r target shippable/yulitarget
     - cp -r $SHIPPABLE_BUILD_DIR/target ./shippable/target
 #    - cp -r target/surefire-reports shippable/yulitestresults
@@ -50,6 +51,8 @@ build:
     - cd target
     - ls
     - cd shippable/target
+    - ls
+    - cd shippable
     - ls
     - cd shippable/yulitarget
     - ls
