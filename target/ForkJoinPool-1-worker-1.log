@@ -1,0 +1,137 @@
+11:47:37.086 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+11:47:37.322 request:
+1 > GET https://api.weatherapi.com/v1/forecast.json?key=dbf93f275c9c429ca1300929200205&q=Sydney&days=2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: api.weatherapi.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_241)
+
+11:47:37.616 response time in milliseconds: 256.22
+1 < 200
+1 < CDN-Cache: HIT
+1 < CDN-CachedAt: 2020-05-02 11:33:17
+1 < CDN-EdgeStorageId: 432
+1 < CDN-PullZone: 93447
+1 < CDN-RequestCountryCode: AU
+1 < CDN-RequestId: 8a5087997a4316a8006778539ae83770
+1 < CDN-Uid: 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+1 < Cache-Control: public, max-age=1200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Sat, 02 May 2020 01:47:37 GMT
+1 < Server: BunnyCDN-SYD1-432
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+{"location":{"name":"Sydney","region":"New South Wales","country":"Australia","lat":-33.88,"lon":151.22,"tz_id":"Australia/Sydney","localtime_epoch":1588383037,"localtime":"2020-05-02 11:30"},"current":{"last_updated_epoch":1588382109,"last_updated":"2020-05-02 11:15","temp_c":17.0,"temp_f":62.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":25.5,"wind_kph":41.0,"wind_degree":280,"wind_dir":"W","pressure_mb":1004.0,"pressure_in":30.1,"precip_mm":0.0,"precip_in":0.0,"humidity":32,"cloud":0,"feelslike_c":17.0,"feelslike_f":62.6,"vis_km":10.0,"vis_miles":6.0,"uv":11.0,"gust_mph":26.6,"gust_kph":42.8},"forecast":{"forecastday":[{"date":"2020-05-02","date_epoch":1588377600,"day":{"maxtemp_c":16.6,"maxtemp_f":61.9,"mintemp_c":10.6,"mintemp_f":51.1,"avgtemp_c":13.6,"avgtemp_f":56.5,"maxwind_mph":19.7,"maxwind_kph":31.7,"totalprecip_mm":0.1,"totalprecip_in":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":58.0,"daily_will_it_rain":0,"daily_chance_of_rain":"0","daily_will_it_snow":0,"daily_chance_of_snow":"0","condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"uv":11.0},"astro":{"sunrise":"06:30 AM","sunset":"05:13 PM","moonrise":"02:09 PM","moonset":"12:02 AM"}},{"date":"2020-05-03","date_epoch":1588464000,"day":{"maxtemp_c":16.7,"maxtemp_f":62.1,"mintemp_c":10.7,"mintemp_f":51.3,"avgtemp_c":14.2,"avgtemp_f":57.5,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.1,"totalprecip_in":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":58.0,"daily_will_it_rain":0,"daily_chance_of_rain":"0","daily_will_it_snow":0,"daily_chance_of_snow":"0","condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"uv":11.0},"astro":{"sunrise":"06:31 AM","sunset":"05:12 PM","moonrise":"02:47 PM","moonset":"01:10 AM"}}]},"alert":{}}
+
+11:47:37.672 [print] ====JSON response===={
+  "localtime": "2020-05-02 11:30",
+  "country": "Australia",
+  "localtime_epoch": 1588383037,
+  "name": "Sydney",
+  "lon": 151.22,
+  "region": "New South Wales",
+  "lat": -33.88,
+  "tz_id": "Australia/Sydney"
+}
+
+11:47:37.674 request:
+2 > GET http://api.weatherapi.com/v1/forecast.xml?key=dbf93f275c9c429ca1300929200205&q=Sydney&days=2
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: api.weatherapi.com
+2 > User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_241)
+
+11:47:37.718 response time in milliseconds: 42.71
+2 < 200
+2 < CDN-Cache: HIT
+2 < CDN-CachedAt: 2020-05-02 11:33:18
+2 < CDN-EdgeStorageId: 432
+2 < CDN-PullZone: 93447
+2 < CDN-RequestCountryCode: AU
+2 < CDN-RequestId: d59a7ae8d7c793997d9795524f08be38
+2 < CDN-Uid: 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
+2 < Cache-Control: public, max-age=1200
+2 < Connection: keep-alive
+2 < Content-Type: text/xml
+2 < Date: Sat, 02 May 2020 01:47:37 GMT
+2 < Server: BunnyCDN-SYD1-432
+2 < Transfer-Encoding: chunked
+2 < Vary: Accept-Encoding
+<?xml version="1.0" encoding="utf-8"?><root><location><name>Sydney</name><region>New South Wales</region><country>Australia</country><lat>-33.88</lat><lon>151.22</lon><tz_id>Australia/Sydney</tz_id><localtime_epoch>1588383055</localtime_epoch><localtime>2020-05-02 11:30</localtime></location><current><last_updated_epoch>1588382109</last_updated_epoch><last_updated>2020-05-02 11:15</last_updated><temp_c>17</temp_c><temp_f>62.6</temp_f><is_day>1</is_day><condition><text>Sunny</text><icon>//cdn.weatherapi.com/weather/64x64/day/113.png</icon><code>1000</code></condition><wind_mph>25.5</wind_mph><wind_kph>41</wind_kph><wind_degree>280</wind_degree><wind_dir>W</wind_dir><pressure_mb>1004</pressure_mb><pressure_in>30.1</pressure_in><precip_mm>0</precip_mm><precip_in>0</precip_in><humidity>32</humidity><cloud>0</cloud><feelslike_c>17</feelslike_c><feelslike_f>62.6</feelslike_f><vis_km>10</vis_km><vis_miles>6</vis_miles><uv>11</uv><gust_mph>26.6</gust_mph><gust_kph>42.8</gust_kph></current><forecast><forecastday><date>2020-05-02</date><date_epoch>1588377600</date_epoch><day><maxtemp_c>16.6</maxtemp_c><maxtemp_f>61.9</maxtemp_f><mintemp_c>10.6</mintemp_c><mintemp_f>51.1</mintemp_f><avgtemp_c>13.6</avgtemp_c><avgtemp_f>56.5</avgtemp_f><maxwind_mph>19.7</maxwind_mph><maxwind_kph>31.7</maxwind_kph><totalprecip_mm>0.1</totalprecip_mm><totalprecip_in>0</totalprecip_in><avgvis_km>10</avgvis_km><avgvis_miles>6</avgvis_miles><avghumidity>58</avghumidity><daily_will_it_rain>0</daily_will_it_rain><daily_chance_of_rain>0</daily_chance_of_rain><daily_will_it_snow>0</daily_will_it_snow><daily_chance_of_snow>0</daily_chance_of_snow><condition><text>Partly cloudy</text><icon>//cdn.weatherapi.com/weather/64x64/day/116.png</icon><code>1003</code></condition><uv>11</uv></day><astro><sunrise>06:30 AM</sunrise><sunset>05:13 PM</sunset><moonrise>02:09 PM</moonrise><moonset>12:02 AM</moonset></astro></forecastday><forecastday><date>2020-05-03</date><date_epoch>1588464000</date_epoch><day><maxtemp_c>16.7</maxtemp_c><maxtemp_f>62.1</maxtemp_f><mintemp_c>10.7</mintemp_c><mintemp_f>51.3</mintemp_f><avgtemp_c>14.2</avgtemp_c><avgtemp_f>57.5</avgtemp_f><maxwind_mph>11.9</maxwind_mph><maxwind_kph>19.1</maxwind_kph><totalprecip_mm>0.1</totalprecip_mm><totalprecip_in>0</totalprecip_in><avgvis_km>10</avgvis_km><avgvis_miles>6</avgvis_miles><avghumidity>58</avghumidity><daily_will_it_rain>0</daily_will_it_rain><daily_chance_of_rain>0</daily_chance_of_rain><daily_will_it_snow>0</daily_will_it_snow><daily_chance_of_snow>0</daily_chance_of_snow><condition><text>Partly cloudy</text><icon>//cdn.weatherapi.com/weather/64x64/day/116.png</icon><code>1003</code></condition><uv>11</uv></day><astro><sunrise>06:31 AM</sunrise><sunset>05:12 PM</sunset><moonrise>02:47 PM</moonrise><moonset>01:10 AM</moonset></astro></forecastday></forecast><alert /></root>
+
+11:47:37.755 [print] ====Xml response===={root={location={name=Sydney, region=New South Wales, country=Australia, lat=-33.88, lon=151.22, tz_id=Australia/Sydney, localtime_epoch=1588383055, localtime=2020-05-02 11:30}, current={last_updated_epoch=1588382109, last_updated=2020-05-02 11:15, temp_c=17, temp_f=62.6, is_day=1, condition={text=Sunny, icon=//cdn.weatherapi.com/weather/64x64/day/113.png, code=1000}, wind_mph=25.5, wind_kph=41, wind_degree=280, wind_dir=W, pressure_mb=1004, pressure_in=30.1, precip_mm=0, precip_in=0, humidity=32, cloud=0, feelslike_c=17, feelslike_f=62.6, vis_km=10, vis_miles=6, uv=11, gust_mph=26.6, gust_kph=42.8}, forecast={forecastday=[{date=2020-05-02, date_epoch=1588377600, day={maxtemp_c=16.6, maxtemp_f=61.9, mintemp_c=10.6, mintemp_f=51.1, avgtemp_c=13.6, avgtemp_f=56.5, maxwind_mph=19.7, maxwind_kph=31.7, totalprecip_mm=0.1, totalprecip_in=0, avgvis_km=10, avgvis_miles=6, avghumidity=58, daily_will_it_rain=0, daily_chance_of_rain=0, daily_will_it_snow=0, daily_chance_of_snow=0, condition={text=Partly cloudy, icon=//cdn.weatherapi.com/weather/64x64/day/116.png, code=1003}, uv=11}, astro={sunrise=06:30 AM, sunset=05:13 PM, moonrise=02:09 PM, moonset=12:02 AM}}, {date=2020-05-03, date_epoch=1588464000, day={maxtemp_c=16.7, maxtemp_f=62.1, mintemp_c=10.7, mintemp_f=51.3, avgtemp_c=14.2, avgtemp_f=57.5, maxwind_mph=11.9, maxwind_kph=19.1, totalprecip_mm=0.1, totalprecip_in=0, avgvis_km=10, avgvis_miles=6, avghumidity=58, daily_will_it_rain=0, daily_chance_of_rain=0, daily_will_it_snow=0, daily_chance_of_snow=0, condition={text=Partly cloudy, icon=//cdn.weatherapi.com/weather/64x64/day/116.png, code=1003}, uv=11}, astro={sunrise=06:31 AM, sunset=05:12 PM, moonrise=02:47 PM, moonset=01:10 AM}}]}, alert=null}}
+}
+-432
+2 < Transfer-Encoding: chunked
+2 < Vary: Accept-Encoding
+<?xml version="1.0" encoding="utf-8"?><root><location><name>Sydney</name><region>New South Wales</region><country>Australia</country><lat>-33.88</lat><lon>151.22</lon><tz_id>Australia/Sydney</tz_id><localtime_epoch>1588383055</localtime_epoch><localtime>2020-05-02 11:30</localtime></location><current><last_updated_epoch>1588382109</last_updated_epoch><last_updated>2020-05-02 11:15</last_updated><temp_c>17</temp_c><temp_f>62.6</temp_f><is_day>1</is_day><condition><text>Sunny</text><icon>//cdn.weatherapi.com/weather/64x64/day/113.png</icon><code>1000</code></condition><wind_mph>25.5</wind_mph><wind_kph>41</wind_kph><wind_degree>280</wind_degree><wind_dir>W</wind_dir><pressure_mb>1004</pressure_mb><pressure_in>30.1</pressure_in><precip_mm>0</precip_mm><precip_in>0</precip_in><humidity>32</humidity><cloud>0</cloud><feelslike_c>17</feelslike_c><feelslike_f>62.6</feelslike_f><vis_km>10</vis_km><vis_miles>6</vis_miles><uv>11</uv><gust_mph>26.6</gust_mph><gust_kph>42.8</gust_kph></current><forecast><forecastday><date>2020-05-02</date><date_epoch>1588377600</date_epoch><day><maxtemp_c>16.6</maxtemp_c><maxtemp_f>61.9</maxtemp_f><mintemp_c>10.6</mintemp_c><mintemp_f>51.1</mintemp_f><avgtemp_c>13.6</avgtemp_c><avgtemp_f>56.5</avgtemp_f><maxwind_mph>19.7</maxwind_mph><maxwind_kph>31.7</maxwind_kph><totalprecip_mm>0.1</totalprecip_mm><totalprecip_in>0</totalprecip_in><avgvis_km>10</avgvis_km><avgvis_miles>6</avgvis_miles><avghumidity>58</avghumidity><daily_will_it_rain>0</daily_will_it_rain><daily_chance_of_rain>0</daily_chance_of_rain><daily_will_it_snow>0</daily_will_it_snow><daily_chance_of_snow>0</daily_chance_of_snow><condition><text>Partly cloudy</text><icon>//cdn.weatherapi.com/weather/64x64/day/116.png</icon><code>1003</code></condition><uv>11</uv></day><astro><sunrise>06:30 AM</sunrise><sunset>05:13 PM</sunset><moonrise>02:09 PM</moonrise><moonset>12:02 AM</moonset></astro></forecastday><forecastday><date>2020-05-03</date><date_epoch>1588464000</date_epoch><day><maxtemp_c>16.7</maxtemp_c><maxtemp_f>62.1</maxtemp_f><mintemp_c>10.7</mintemp_c><mintemp_f>51.3</mintemp_f><avgtemp_c>14.2</avgtemp_c><avgtemp_f>57.5</avgtemp_f><maxwind_mph>11.9</maxwind_mph><maxwind_kph>19.1</maxwind_kph><totalprecip_mm>0.1</totalprecip_mm><totalprecip_in>0</totalprecip_in><avgvis_km>10</avgvis_km><avgvis_miles>6</avgvis_miles><avghumidity>58</avghumidity><daily_will_it_rain>0</daily_will_it_rain><daily_chance_of_rain>0</daily_chance_of_rain><daily_will_it_snow>0</daily_will_it_snow><daily_chance_of_snow>0</daily_chance_of_snow><condition><text>Partly cloudy</text><icon>//cdn.weatherapi.com/weather/64x64/day/116.png</icon><code>1003</code></condition><uv>11</uv></day><astro><sunrise>06:31 AM</sunrise><sunset>05:12 PM</sunset><moonrise>02:47 PM</moonrise><moonset>01:10 AM</moonset></astro></forecastday></forecast><alert /></root>
+
+11:43:11.931 [print]
+===Xml response====
+ull
+>-33.88</lat><lon>151.22</lon><tz_id>Australia/Sydney</tz_id><localtime_epoch>1588383055</localtime_epoch><localtime>2020-05-02 11:30</localtime></location><current><last_updated_epoch>1588382109</last_updated_epoch><last_updated>2020-05-02 11:15</last_updated><temp_c>17</temp_c><temp_f>62.6</temp_f><is_day>1</is_day><condition><text>Sunny</text><icon>//cdn.weatherapi.com/weather/64x64/day/113.png</icon><code>1000</code></condition><wind_mph>25.5</wind_mph><wind_kph>41</wind_kph><wind_degree>280</wind_degree><wind_dir>W</wind_dir><pressure_mb>1004</pressure_mb><pressure_in>30.1</pressure_in><precip_mm>0</precip_mm><precip_in>0</precip_in><humidity>32</humidity><cloud>0</cloud><feelslike_c>17</feelslike_c><feelslike_f>62.6</feelslike_f><vis_km>10</vis_km><vis_miles>6</vis_miles><uv>11</uv><gust_mph>26.6</gust_mph><gust_kph>42.8</gust_kph></current><forecast><forecastday><date>2020-05-02</date><date_epoch>1588377600</date_epoch><day><maxtemp_c>16.6</maxtemp_c><maxtemp_f>61.9</maxtemp_f><mintemp_c>10.6</mintemp_c><mintemp_f>51.1</mintemp_f><avgtemp_c>13.6</avgtemp_c><avgtemp_f>56.5</avgtemp_f><maxwind_mph>19.7</maxwind_mph><maxwind_kph>31.7</maxwind_kph><totalprecip_mm>0.1</totalprecip_mm><totalprecip_in>0</totalprecip_in><avgvis_km>10</avgvis_km><avgvis_miles>6</avgvis_miles><avghumidity>58</avghumidity><daily_will_it_rain>0</daily_will_it_rain><daily_chance_of_rain>0</daily_chance_of_rain><daily_will_it_snow>0</daily_will_it_snow><daily_chance_of_snow>0</daily_chance_of_snow><condition><text>Partly cloudy</text><icon>//cdn.weatherapi.com/weather/64x64/day/116.png</icon><code>1003</code></condition><uv>11</uv></day><astro><sunrise>06:30 AM</sunrise><sunset>05:13 PM</sunset><moonrise>02:09 PM</moonrise><moonset>12:02 AM</moonset></astro></forecastday><forecastday><date>2020-05-03</date><date_epoch>1588464000</date_epoch><day><maxtemp_c>16.7</maxtemp_c><maxtemp_f>62.1</maxtemp_f><mintemp_c>10.7</mintemp_c><mintemp_f>51.3</mintemp_f><avgtemp_c>14.2</avgtemp_c><avgtemp_f>57.5</avgtemp_f><maxwind_mph>11.9</maxwind_mph><maxwind_kph>19.1</maxwind_kph><totalprecip_mm>0.1</totalprecip_mm><totalprecip_in>0</totalprecip_in><avgvis_km>10</avgvis_km><avgvis_miles>6</avgvis_miles><avghumidity>58</avghumidity><daily_will_it_rain>0</daily_will_it_rain><daily_chance_of_rain>0</daily_chance_of_rain><daily_will_it_snow>0</daily_will_it_snow><daily_chance_of_snow>0</daily_chance_of_snow><condition><text>Partly cloudy</text><icon>//cdn.weatherapi.com/weather/64x64/day/116.png</icon><code>1003</code></condition><uv>11</uv></day><astro><sunrise>06:31 AM</sunrise><sunset>05:12 PM</sunset><moonrise>02:47 PM</moonrise><moonset>01:10 AM</moonset></astro></forecastday></forecast><alert /></root>
+
+11:39:48.023 [print] ====Xml response===={root={location={name=Sydney, region=New South Wales, country=Australia, lat=-33.88, lon=151.22, tz_id=Australia/Sydney, localtime_epoch=1588383055, localtime=2020-05-02 11:30}, current={last_updated_epoch=1588382109, last_updated=2020-05-02 11:15, temp_c=17, temp_f=62.6, is_day=1, condition={text=Sunny, icon=//cdn.weatherapi.com/weather/64x64/day/113.png, code=1000}, wind_mph=25.5, wind_kph=41, wind_degree=280, wind_dir=W, pressure_mb=1004, pressure_in=30.1, precip_mm=0, precip_in=0, humidity=32, cloud=0, feelslike_c=17, feelslike_f=62.6, vis_km=10, vis_miles=6, uv=11, gust_mph=26.6, gust_kph=42.8}, forecast={forecastday=[{date=2020-05-02, date_epoch=1588377600, day={maxtemp_c=16.6, maxtemp_f=61.9, mintemp_c=10.6, mintemp_f=51.1, avgtemp_c=13.6, avgtemp_f=56.5, maxwind_mph=19.7, maxwind_kph=31.7, totalprecip_mm=0.1, totalprecip_in=0, avgvis_km=10, avgvis_miles=6, avghumidity=58, daily_will_it_rain=0, daily_chance_of_rain=0, daily_will_it_snow=0, daily_chance_of_snow=0, condition={text=Partly cloudy, icon=//cdn.weatherapi.com/weather/64x64/day/116.png, code=1003}, uv=11}, astro={sunrise=06:30 AM, sunset=05:13 PM, moonrise=02:09 PM, moonset=12:02 AM}}, {date=2020-05-03, date_epoch=1588464000, day={maxtemp_c=16.7, maxtemp_f=62.1, mintemp_c=10.7, mintemp_f=51.3, avgtemp_c=14.2, avgtemp_f=57.5, maxwind_mph=11.9, maxwind_kph=19.1, totalprecip_mm=0.1, totalprecip_in=0, avgvis_km=10, avgvis_miles=6, avghumidity=58, daily_will_it_rain=0, daily_chance_of_rain=0, daily_will_it_snow=0, daily_chance_of_snow=0, condition={text=Partly cloudy, icon=//cdn.weatherapi.com/weather/64x64/day/116.png, code=1003}, uv=11}, astro={sunrise=06:31 AM, sunset=05:12 PM, moonrise=02:47 PM, moonset=01:10 AM}}]}, alert=null}}
+,
+            "daily_chance_of_snow": "0",
+            "condition": {
+              "text": "Partly cloudy",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": "1003"
+            },
+            "uv": "11"
+          },
+          "astro": {
+            "sunrise": "06:30 AM",
+            "sunset": "05:13 PM",
+            "moonrise": "02:09 PM",
+            "moonset": "12:02 AM"
+          }
+        },
+        {
+          "date": "2020-05-03",
+          "date_epoch": "1588464000",
+          "day": {
+            "maxtemp_c": "16.7",
+            "maxtemp_f": "62.1",
+            "mintemp_c": "10.7",
+            "mintemp_f": "51.3",
+            "avgtemp_c": "14.2",
+            "avgtemp_f": "57.5",
+            "maxwind_mph": "11.9",
+            "maxwind_kph": "19.1",
+            "totalprecip_mm": "0.1",
+            "totalprecip_in": "0",
+            "avgvis_km": "10",
+            "avgvis_miles": "6",
+            "avghumidity": "58",
+            "daily_will_it_rain": "0",
+            "daily_chance_of_rain": "0",
+            "daily_will_it_snow": "0",
+            "daily_chance_of_snow": "0",
+            "condition": {
+              "text": "Partly cloudy",
+              "icon": "//cdn.weatherapi.com/weather/64x64/day/116.png",
+              "code": "1003"
+            },
+            "uv": "11"
+          },
+          "astro": {
+            "sunrise": "06:31 AM",
+            "sunset": "05:12 PM",
+            "moonrise": "02:47 PM",
+            "moonset": "01:10 AM"
+          }
+        }
+      ]
+    },
+    "alert": null
+  }
+}
+
+
+    "alert": null
+  }
+}
+
