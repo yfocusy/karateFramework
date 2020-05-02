@@ -36,6 +36,7 @@ build:
     - mkdir -p shippable/coverage
     - mkdir -p shippable/yulitestresults
     - shippable_retry mvn install
+    - shippable_retry mvn test
     - cp -r target shippable/coverage
 #    - cp -r target/surefire-reports shippable/yulitestresults
 
