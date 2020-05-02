@@ -45,14 +45,12 @@ build:
     - cp -r $SHIPPABLE_BUILD_DIR/target ./shippable/target
 #    - cp -r target/
 #    - cp -r target/surefire-reports shippable/yulitestresults
-
-  post_ci:
     - echo "Checking Files"
     - ls
     - cd target/cobertura
     - ls
-#    - cd shippable/target
-#    - ls
+    #    - cd shippable/target
+    #    - ls
     - cd ../../shippable
     - ls
     - cd target
@@ -63,6 +61,24 @@ build:
     - ls
     - cd ../testresults
     - ls
+
+#  post_ci:
+#    - echo "Checking Files"
+#    - ls
+#    - cd target/cobertura
+#    - ls
+##    - cd shippable/target
+##    - ls
+#    - cd ../../shippable
+#    - ls
+#    - cd target
+#    - ls
+#    - cd ../buildoutput
+#    - ls
+#    - cd ../codecoverage
+#    - ls
+#    - cd ../testresults
+#    - ls
 
 
 
