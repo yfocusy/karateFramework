@@ -43,8 +43,8 @@ build:
 #    - shippable_retry mvn clean cobertura:cobertura
 #    - cp -r target shippable/yulitarget
     - cp -r $SHIPPABLE_BUILD_DIR/target ./shippable/target
-#    - cp -r target/
-#    - cp -r target/surefire-reports shippable/yulitestresults
+    - cp -r $SHIPPABLE_BUILD_DIR/target/surefire-reports ./shippable/testresults
+    - cp -r $SHIPPABLE_BUILD_DIR/target/surefire-reports ./shippable/codecoverage
     - echo "Checking Files"
     - ls
     - cd target/cobertura
@@ -55,11 +55,15 @@ build:
     - ls
     - cd target
     - ls
-    - cd ../buildoutput
+    - cd cobertura
     - ls
-    - cd ../codecoverage
+    - cd ./shippable/target/surefire-reports
     - ls
-    - cd ../testresults
+    - cd ./shippable/buildoutput
+    - ls
+    - cd ./shippable/codecoverage
+    - ls
+    - cd ./shippable/testresults
     - ls
 
 #  post_ci:
