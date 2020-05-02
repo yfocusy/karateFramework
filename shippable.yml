@@ -31,6 +31,7 @@ build:
 #    pull: true
     - mkdir -p shippable/testresults
     - mkdir -p shippable/coverage
+    - mkdir -p shippable/yulitarget
     - mkdir -p shippable/target
     - ls
     - cd shippable
@@ -39,13 +40,16 @@ build:
   ci:
     - shippable_retry mvn clean install
     - shippable_retry mvn test
-    - cp -r target shippable/target
+    - cp -r target shippable/yulitarget
+    - cp -r $SHIPPABLE_BUILD_DIR/target ./shippable/target
 #    - cp -r target/surefire-reports shippable/yulitestresults
 
   post_ci:
     - echo "Checking Files"
     - ls
     - cd shippable/target
+    - ls
+    - cd shippable/yulitarget
     - ls
 #
 #  on_success:
