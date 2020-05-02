@@ -37,7 +37,7 @@ build:
     - mkdir -p shippable/yulitestresults
     - shippable_retry mvn install
     - cp -r target shippable/coverage
-    - cp -r target/surefile-reports shippable/yulitestresults
+#    - cp -r target/surefire-reports shippable/yulitestresults
 
 #  post_ci:
 #    - sss

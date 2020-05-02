@@ -4,22 +4,6 @@
     <list default="true" id="faada2a6-1e08-40e8-8fa9-1c2c4337a1ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shippable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shippable.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulikarate/test/StartServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/results-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.demo.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.demo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.weather.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.weather.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.weather.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/karatetest.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/DemoRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/WeatherRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/demo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hello.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/weather.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
