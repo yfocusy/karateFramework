@@ -31,8 +31,8 @@ build:
 #    pull: true
     - mkdir -p shippable/testresults
     - mkdir -p shippable/codecoverage
-    - mkdir -p shippable/target
-    - mkdir -p shippable/yulitarget
+#    - mkdir -p shippable/target
+#    - mkdir -p shippable/yulitarget
     - ls
     - cd shippable
     - ls
@@ -50,12 +50,12 @@ build:
     - ls
     - cd target
     - ls
-    - cd shippable/target
-    - ls
+#    - cd shippable/target
+#    - ls
     - cd shippable
     - ls
-    - cd shippable/yulitarget
-    - ls
+#    - cd shippable/yulitarget
+#    - ls
 #
 #  on_success:
 #
