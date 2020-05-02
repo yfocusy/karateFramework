@@ -12,24 +12,35 @@
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-apache</artifactId>
             <version>0.9.5</version>
-            <scope>compile</scope>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-junit4</artifactId>
             <version>0.9.5</version>
-            <scope>compile</scope>
+            <scope>test</scope>
         </dependency>
+
+
         <dependency>
             <groupId>com.github.tomakehurst</groupId>
             <artifactId>wiremock-standalone</artifactId>
             <version>2.18.0</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>com.intuit.karate</groupId>
-            <artifactId>karate-testng</artifactId>
-            <version>0.8.0</version>
-        </dependency>
     </dependencies>
+
+
+    <build>
+        <testResources>
+            <testResource>
+                <directory>${project.basedir}/src/test/java</directory>
+            </testResource>
+            <testResource>
+                <directory>${project.basedir}/src/test/resources</directory>
+            </testResource>
+        </testResources>
+
+    </build>
+
 </project>
