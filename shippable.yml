@@ -30,9 +30,9 @@ build:
 #    image_tag: latest
 #    pull: true
     - mkdir -p shippable/testresults
-    - mkdir -p shippable/coverage
-    - mkdir -p shippable/yulitarget
+#    - mkdir -p shippable/coverage
     - mkdir -p shippable/target
+    - mkdir -p shippable/yulitarget
     - ls
     - cd shippable
     - ls
@@ -46,6 +46,8 @@ build:
 
   post_ci:
     - echo "Checking Files"
+    - ls
+    - cd target
     - ls
     - cd shippable/target
     - ls
