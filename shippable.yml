@@ -1,0 +1,56 @@
+# Language setting http://docs.shippable.com/ci/languages/node/
+language: java
+# version number
+jdk:
+  - oraclejdk8
+
+# use this to control what branches get built.
+# http://docs.shippable.com/ci/advancedOptions/branches/
+branches:
+  only:
+    - master
+#
+## using pre-defined build variables
+## full list http://docs.shippable.com/ci/advancedOptions/environmentVariables/
+#env:
+#  global:
+#    - TEST_RESULTS_DIR=$SHIPPABLE_REPO_DIR/shippable/testresults
+#    - CODE_COVERAGE_DIR=$SHIPPABLE_REPO_DIR/shippable/codecoverage
+#    - TESTS_LOC_DIR=$SHIPPABLE_REPO_DIR/src/test/java/
+#    - MOD_LOC=$SHIPPABLE_REPO_DIR/node_modules/.bin/
+#
+#build:
+#
+#  cache: true
+#  cache_dir_list:
+#    - /root/.m2
+#
+#  pre_ci:
+#    image_name: xxxxx
+#    image_tag: latest
+#    pull: true
+#
+#
+#  ci:
+#    - sss
+#    - sss
+#
+#  post_ci:
+#    - sss
+#    - sss
+#
+#  on_success:
+#
+#    - sss
+#
+#  on_failure:
+#    - #command1
+#    - #command2
+#
+#  always:
+#    - #command1
+#    - #command2
+#
+#  push:
+#    - #command1
+
