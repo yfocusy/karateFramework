@@ -57,7 +57,9 @@ build:
     - ls
     - cd cobertura
     - ls
-    - cd ./shippable/target/surefire-reports
+    - cd ~
+    - ls
+    - cd ~/shippable/target/surefire-reports
     - ls
     - cd ./shippable/buildoutput
     - ls
