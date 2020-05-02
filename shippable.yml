@@ -29,14 +29,12 @@ build:
 #    image_name: xxxxx
 #    image_tag: latest
 #    pull: true
-    - echo '.......... Running: Pre_CI.......... '
     - mkdir -p shippable/testresults
     - mkdir -p shippable/coverage
     - mkdir -p shippable/yulitestresults
     - shippable_retry mvn install
 
   ci:
-    - echo '.......... 'Running: CI..........'
     - shippable_retry mvn clean test
     - cp -r target shippable/coverage
 #    - cp -r target/surefire-reports shippable/yulitestresults
