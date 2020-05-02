@@ -48,11 +48,11 @@ build:
   post_ci:
     - echo "Checking Files"
     - ls
-    - cd target
+    - cd target/cobertura
     - ls
 #    - cd shippable/target
 #    - ls
-    - cd shippable
+    - cd ./shippable
     - ls
 #    - cd shippable/yulitarget
 #    - ls
