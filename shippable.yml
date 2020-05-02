@@ -31,22 +31,21 @@ build:
 #    pull: true
     - mkdir -p shippable/testresults
     - mkdir -p shippable/coverage
-    - mkdir -p shippable/yulitestresults
+    - mkdir -p shippable/target
     - ls
     - cd shippable
     - ls
 
   ci:
-    - shippable_retry mvn install
-    - shippable_retry mvn clean test
-    - cp -r target shippable/coverage
+    - shippable_retry mvn clean install
+    - shippable_retry mvn test
+    - cp -r target shippable/target
 #    - cp -r target/surefire-reports shippable/yulitestresults
 
   post_ci:
+    - echo "Checking Files"
     - ls
-    - cd shippable/coverage
-    - ls
-    - cd shippable/surefire-reports
+    - cd shippable/target
     - ls
 #
 #  on_success:
