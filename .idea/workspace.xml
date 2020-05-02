@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faada2a6-1e08-40e8-8fa9-1c2c4337a1ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/yulikarate/test/StartServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/results-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.weather.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.weather.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.weather.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/DemoRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/WeatherRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/demo.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hello.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/weather.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shippable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shippable.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yulikarate/test/testruns/DemoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yulikarate/test/testruns/DemoRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +13,9 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="214" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +43,7 @@
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: weather">
+  <component name="RunManager" selected="JUnit.DemoRunner">
     <configuration name="Feature: weather" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/weather.feature" />
@@ -91,8 +81,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="karatetest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yulikarate.test.testruns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yulikarate.test.testruns" />
+      <option name="MAIN_CLASS_NAME" value="com.yulikarate.test.testruns.DemoRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="karatetest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yulikarate.test.testruns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yulikarate.test.testruns" />
+      <option name="MAIN_CLASS_NAME" value="com.yulikarate.test.testruns.DemoRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="karatetest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yulikarate.test.testruns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yulikarate.test.testruns" />
+      <option name="MAIN_CLASS_NAME" value="com.yulikarate.test.testruns.WeatherRunner" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DemoRunner" />
+        <item itemvalue="TestNG.DemoRunner" />
+        <item itemvalue="TestNG.WeatherRunner" />
         <item itemvalue="Cucumber java.Feature: weather" />
         <item itemvalue="Cucumber java.Scenario: Testing valid GET endpoint" />
       </list>
@@ -124,21 +166,54 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1559" height="167" key="GridCell.Tab.0.bottom" timestamp="1588394104274">
+    <state x="769" y="-891" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588395986217">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
-    <state width="1559" height="167" key="GridCell.Tab.0.bottom/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588394104274" />
-    <state width="1559" height="167" key="GridCell.Tab.0.center" timestamp="1588394104273">
+    <state x="769" y="-891" key="#com.intellij.execution.impl.EditConfigurationsDialog/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588395986217" />
+    <state width="1559" height="320" key="GridCell.Tab.0.bottom" timestamp="1588396348610">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
-    <state width="1559" height="167" key="GridCell.Tab.0.center/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588394104273" />
-    <state width="1559" height="167" key="GridCell.Tab.0.left" timestamp="1588394104272">
+    <state width="1559" height="313" key="GridCell.Tab.0.bottom/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501319" />
+    <state width="1559" height="320" key="GridCell.Tab.0.bottom/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588396348610" />
+    <state width="1559" height="320" key="GridCell.Tab.0.bottom/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588395454887" />
+    <state width="1559" height="320" key="GridCell.Tab.0.center" timestamp="1588396348605">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
-    <state width="1559" height="167" key="GridCell.Tab.0.left/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588394104272" />
-    <state width="1559" height="167" key="GridCell.Tab.0.right" timestamp="1588394104273">
+    <state width="1559" height="313" key="GridCell.Tab.0.center/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501317" />
+    <state width="1559" height="320" key="GridCell.Tab.0.center/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588396348605" />
+    <state width="1559" height="320" key="GridCell.Tab.0.center/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588395454885" />
+    <state width="1559" height="320" key="GridCell.Tab.0.left" timestamp="1588396348601">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
-    <state width="1559" height="167" key="GridCell.Tab.0.right/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588394104273" />
+    <state width="1559" height="313" key="GridCell.Tab.0.left/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501316" />
+    <state width="1559" height="320" key="GridCell.Tab.0.left/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588396348601" />
+    <state width="1559" height="320" key="GridCell.Tab.0.left/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588395454884" />
+    <state width="1559" height="320" key="GridCell.Tab.0.right" timestamp="1588396348609">
+      <screen x="504" y="-1027" width="1680" height="1027" />
+    </state>
+    <state width="1559" height="313" key="GridCell.Tab.0.right/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501318" />
+    <state width="1559" height="320" key="GridCell.Tab.0.right/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588396348609" />
+    <state width="1559" height="320" key="GridCell.Tab.0.right/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588395454886" />
+    <state width="1559" height="313" key="GridCell.Tab.1.bottom" timestamp="1588395501322">
+      <screen x="504" y="-1027" width="1680" height="1027" />
+    </state>
+    <state width="1559" height="313" key="GridCell.Tab.1.bottom/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501322" />
+    <state width="1559" height="313" key="GridCell.Tab.1.center" timestamp="1588395501321">
+      <screen x="504" y="-1027" width="1680" height="1027" />
+    </state>
+    <state width="1559" height="313" key="GridCell.Tab.1.center/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501321" />
+    <state width="1559" height="313" key="GridCell.Tab.1.left" timestamp="1588395501320">
+      <screen x="504" y="-1027" width="1680" height="1027" />
+    </state>
+    <state width="1559" height="313" key="GridCell.Tab.1.left/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501320" />
+    <state width="1559" height="313" key="GridCell.Tab.1.right" timestamp="1588395501321">
+      <screen x="504" y="-1027" width="1680" height="1027" />
+    </state>
+    <state width="1559" height="313" key="GridCell.Tab.1.right/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501321" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/karatetest$DemoRunner.ic" NAME="DemoRunner Coverage Results" MODIFIED="1588395917645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.yulikarate.test.testruns.*</FILTER>
+    </SUITE>
   </component>
 </project>
