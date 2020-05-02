@@ -46,6 +46,7 @@ build:
     - cp -r $SHIPPABLE_BUILD_DIR/target/surefire-reports ./shippable/testresults
     - cp -r $SHIPPABLE_BUILD_DIR/target/surefire-reports ./shippable/codecoverage
     - echo "Checking Files"
+    - pwd
     - ls
     - cd target/cobertura
     - ls
@@ -57,6 +58,7 @@ build:
     - ls
     - cd cobertura
     - ls
+    - pwd
     - cd ~
     - ls
     - cd ~/shippable/target/surefire-reports
