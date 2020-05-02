@@ -52,7 +52,7 @@ build:
     - ls
 #    - cd shippable/target
 #    - ls
-    - cd ./shippable
+    - cd ../../shippable
     - ls
 #    - cd shippable/yulitarget
 #    - ls
