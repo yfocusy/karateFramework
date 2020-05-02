@@ -172,65 +172,65 @@
 </div>
 <div class="step-row">
 <div class="step-cell passed">* def jsonUrl = 'https://api.weatherapi.com/v1/forecast.json?key=dbf93f275c9c429ca1300929200205&amp;q=Sydney&amp;days=2'</div>
-<div class="time-cell passed">0.002894</div>
+<div class="time-cell passed">0.002869</div>
 </div>
-<div class="preformatted">11:47:37.086 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
+<div class="preformatted">14:29:08.653 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js</div>
 <div class="step-row">
 <div class="step-cell passed">* def xmlUrl = 'http://api.weatherapi.com/v1/forecast.xml?key=dbf93f275c9c429ca1300929200205&amp;q=Sydney&amp;days=2'</div>
-<div class="time-cell passed">0.001596</div>
+<div class="time-cell passed">0.001965</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">Given url jsonUrl</div>
-<div class="time-cell passed">0.000318</div>
+<div class="time-cell passed">0.000336</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">When method GET</div>
-<div class="time-cell passed">0.538244</div>
+<div class="time-cell passed">0.583542</div>
 </div>
-<div class="preformatted">11:47:37.322 request:
+<div class="preformatted">14:29:08.934 request:
 1 &gt; GET https://api.weatherapi.com/v1/forecast.json?key=dbf93f275c9c429ca1300929200205&amp;q=Sydney&amp;days=2
 1 &gt; Accept-Encoding: gzip,deflate
 1 &gt; Connection: Keep-Alive
 1 &gt; Host: api.weatherapi.com
 1 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_241)
 
-11:47:37.616 response time in milliseconds: 256.22
+14:29:09.228 response time in milliseconds: 259.68
 1 &lt; 200
 1 &lt; CDN-Cache: HIT
-1 &lt; CDN-CachedAt: 2020-05-02 11:33:17
+1 &lt; CDN-CachedAt: 2020-05-02 14:28:52
 1 &lt; CDN-EdgeStorageId: 432
 1 &lt; CDN-PullZone: 93447
 1 &lt; CDN-RequestCountryCode: AU
-1 &lt; CDN-RequestId: 8a5087997a4316a8006778539ae83770
+1 &lt; CDN-RequestId: 46dcd8eacc5ede01dd82ec98da25144d
 1 &lt; CDN-Uid: 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
 1 &lt; Cache-Control: public, max-age=1200
 1 &lt; Connection: keep-alive
 1 &lt; Content-Type: application/json
-1 &lt; Date: Sat, 02 May 2020 01:47:37 GMT
+1 &lt; Date: Sat, 02 May 2020 04:29:09 GMT
 1 &lt; Server: BunnyCDN-SYD1-432
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Vary: Accept-Encoding
-{"location":{"name":"Sydney","region":"New South Wales","country":"Australia","lat":-33.88,"lon":151.22,"tz_id":"Australia/Sydney","localtime_epoch":1588383037,"localtime":"2020-05-02 11:30"},"current":{"last_updated_epoch":1588382109,"last_updated":"2020-05-02 11:15","temp_c":17.0,"temp_f":62.6,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":25.5,"wind_kph":41.0,"wind_degree":280,"wind_dir":"W","pressure_mb":1004.0,"pressure_in":30.1,"precip_mm":0.0,"precip_in":0.0,"humidity":32,"cloud":0,"feelslike_c":17.0,"feelslike_f":62.6,"vis_km":10.0,"vis_miles":6.0,"uv":11.0,"gust_mph":26.6,"gust_kph":42.8},"forecast":{"forecastday":[{"date":"2020-05-02","date_epoch":1588377600,"day":{"maxtemp_c":16.6,"maxtemp_f":61.9,"mintemp_c":10.6,"mintemp_f":51.1,"avgtemp_c":13.6,"avgtemp_f":56.5,"maxwind_mph":19.7,"maxwind_kph":31.7,"totalprecip_mm":0.1,"totalprecip_in":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":58.0,"daily_will_it_rain":0,"daily_chance_of_rain":"0","daily_will_it_snow":0,"daily_chance_of_snow":"0","condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"uv":11.0},"astro":{"sunrise":"06:30 AM","sunset":"05:13 PM","moonrise":"02:09 PM","moonset":"12:02 AM"}},{"date":"2020-05-03","date_epoch":1588464000,"day":{"maxtemp_c":16.7,"maxtemp_f":62.1,"mintemp_c":10.7,"mintemp_f":51.3,"avgtemp_c":14.2,"avgtemp_f":57.5,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.1,"totalprecip_in":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":58.0,"daily_will_it_rain":0,"daily_chance_of_rain":"0","daily_will_it_snow":0,"daily_chance_of_snow":"0","condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"uv":11.0},"astro":{"sunrise":"06:31 AM","sunset":"05:12 PM","moonrise":"02:47 PM","moonset":"01:10 AM"}}]},"alert":{}}</div>
+{"location":{"name":"Sydney","region":"New South Wales","country":"Australia","lat":-33.88,"lon":151.22,"tz_id":"Australia/Sydney","localtime_epoch":1588393589,"localtime":"2020-05-02 14:26"},"current":{"last_updated_epoch":1588392909,"last_updated":"2020-05-02 14:15","temp_c":19.0,"temp_f":66.2,"is_day":1,"condition":{"text":"Sunny","icon":"//cdn.weatherapi.com/weather/64x64/day/113.png","code":1000},"wind_mph":28.6,"wind_kph":46.1,"wind_degree":270,"wind_dir":"W","pressure_mb":1002.0,"pressure_in":30.1,"precip_mm":0.0,"precip_in":0.0,"humidity":28,"cloud":0,"feelslike_c":19.0,"feelslike_f":66.2,"vis_km":10.0,"vis_miles":6.0,"uv":11.0,"gust_mph":29.8,"gust_kph":47.9},"forecast":{"forecastday":[{"date":"2020-05-02","date_epoch":1588377600,"day":{"maxtemp_c":16.6,"maxtemp_f":61.9,"mintemp_c":10.6,"mintemp_f":51.1,"avgtemp_c":13.6,"avgtemp_f":56.5,"maxwind_mph":19.7,"maxwind_kph":31.7,"totalprecip_mm":0.1,"totalprecip_in":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":58.0,"daily_will_it_rain":0,"daily_chance_of_rain":"0","daily_will_it_snow":0,"daily_chance_of_snow":"0","condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"uv":11.0},"astro":{"sunrise":"06:30 AM","sunset":"05:13 PM","moonrise":"02:09 PM","moonset":"12:02 AM"}},{"date":"2020-05-03","date_epoch":1588464000,"day":{"maxtemp_c":16.7,"maxtemp_f":62.1,"mintemp_c":10.7,"mintemp_f":51.3,"avgtemp_c":14.2,"avgtemp_f":57.5,"maxwind_mph":11.9,"maxwind_kph":19.1,"totalprecip_mm":0.1,"totalprecip_in":0.0,"avgvis_km":10.0,"avgvis_miles":6.0,"avghumidity":58.0,"daily_will_it_rain":0,"daily_chance_of_rain":"0","daily_will_it_snow":0,"daily_chance_of_snow":"0","condition":{"text":"Partly cloudy","icon":"//cdn.weatherapi.com/weather/64x64/day/116.png","code":1003},"uv":11.0},"astro":{"sunrise":"06:31 AM","sunset":"05:12 PM","moonrise":"02:47 PM","moonset":"01:10 AM"}}]},"alert":{}}</div>
 <div class="step-row">
 <div class="step-cell passed">Then status 200</div>
-<div class="time-cell passed">0.000012</div>
+<div class="time-cell passed">0.000015</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And match responseType == 'json'</div>
-<div class="time-cell passed">0.002495</div>
+<div class="time-cell passed">0.002414</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">* def jsonResponse = response</div>
-<div class="time-cell passed">0.000014</div>
+<div class="time-cell passed">0.000013</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">* print '====JSON response====' + karate.pretty(jsonResponse.location)</div>
-<div class="time-cell passed">0.026612</div>
+<div class="time-cell passed">0.023419</div>
 </div>
-<div class="preformatted">11:47:37.672 [print] ====JSON response===={
-  "localtime": "2020-05-02 11:30",
+<div class="preformatted">14:29:09.283 [print] ====JSON response===={
+  "localtime": "2020-05-02 14:26",
   "country": "Australia",
-  "localtime_epoch": 1588383037,
+  "localtime_epoch": 1588393589,
   "name": "Sydney",
   "lon": 151.22,
   "region": "New South Wales",
@@ -239,53 +239,53 @@
 }</div>
 <div class="step-row">
 <div class="step-cell passed">Given url xmlUrl</div>
-<div class="time-cell passed">0.000018</div>
+<div class="time-cell passed">0.000012</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">When method GET</div>
-<div class="time-cell passed">0.073992</div>
+<div class="time-cell passed">0.073937</div>
 </div>
-<div class="preformatted">11:47:37.674 request:
+<div class="preformatted">14:29:09.284 request:
 2 &gt; GET http://api.weatherapi.com/v1/forecast.xml?key=dbf93f275c9c429ca1300929200205&amp;q=Sydney&amp;days=2
 2 &gt; Accept-Encoding: gzip,deflate
 2 &gt; Connection: Keep-Alive
 2 &gt; Host: api.weatherapi.com
 2 &gt; User-Agent: Apache-HttpClient/4.5.11 (Java/1.8.0_241)
 
-11:47:37.718 response time in milliseconds: 42.71
+14:29:09.329 response time in milliseconds: 43.62
 2 &lt; 200
 2 &lt; CDN-Cache: HIT
-2 &lt; CDN-CachedAt: 2020-05-02 11:33:18
+2 &lt; CDN-CachedAt: 2020-05-02 14:28:53
 2 &lt; CDN-EdgeStorageId: 432
 2 &lt; CDN-PullZone: 93447
 2 &lt; CDN-RequestCountryCode: AU
-2 &lt; CDN-RequestId: d59a7ae8d7c793997d9795524f08be38
+2 &lt; CDN-RequestId: 3656983f06386b479ddda1f163ad9e90
 2 &lt; CDN-Uid: 8fa3a04a-75d9-4707-8056-b7b33c8ac7fe
 2 &lt; Cache-Control: public, max-age=1200
 2 &lt; Connection: keep-alive
 2 &lt; Content-Type: text/xml
-2 &lt; Date: Sat, 02 May 2020 01:47:37 GMT
+2 &lt; Date: Sat, 02 May 2020 04:29:09 GMT
 2 &lt; Server: BunnyCDN-SYD1-432
 2 &lt; Transfer-Encoding: chunked
 2 &lt; Vary: Accept-Encoding
-&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;root&gt;&lt;location&gt;&lt;name&gt;Sydney&lt;/name&gt;&lt;region&gt;New South Wales&lt;/region&gt;&lt;country&gt;Australia&lt;/country&gt;&lt;lat&gt;-33.88&lt;/lat&gt;&lt;lon&gt;151.22&lt;/lon&gt;&lt;tz_id&gt;Australia/Sydney&lt;/tz_id&gt;&lt;localtime_epoch&gt;1588383055&lt;/localtime_epoch&gt;&lt;localtime&gt;2020-05-02 11:30&lt;/localtime&gt;&lt;/location&gt;&lt;current&gt;&lt;last_updated_epoch&gt;1588382109&lt;/last_updated_epoch&gt;&lt;last_updated&gt;2020-05-02 11:15&lt;/last_updated&gt;&lt;temp_c&gt;17&lt;/temp_c&gt;&lt;temp_f&gt;62.6&lt;/temp_f&gt;&lt;is_day&gt;1&lt;/is_day&gt;&lt;condition&gt;&lt;text&gt;Sunny&lt;/text&gt;&lt;icon&gt;//cdn.weatherapi.com/weather/64x64/day/113.png&lt;/icon&gt;&lt;code&gt;1000&lt;/code&gt;&lt;/condition&gt;&lt;wind_mph&gt;25.5&lt;/wind_mph&gt;&lt;wind_kph&gt;41&lt;/wind_kph&gt;&lt;wind_degree&gt;280&lt;/wind_degree&gt;&lt;wind_dir&gt;W&lt;/wind_dir&gt;&lt;pressure_mb&gt;1004&lt;/pressure_mb&gt;&lt;pressure_in&gt;30.1&lt;/pressure_in&gt;&lt;precip_mm&gt;0&lt;/precip_mm&gt;&lt;precip_in&gt;0&lt;/precip_in&gt;&lt;humidity&gt;32&lt;/humidity&gt;&lt;cloud&gt;0&lt;/cloud&gt;&lt;feelslike_c&gt;17&lt;/feelslike_c&gt;&lt;feelslike_f&gt;62.6&lt;/feelslike_f&gt;&lt;vis_km&gt;10&lt;/vis_km&gt;&lt;vis_miles&gt;6&lt;/vis_miles&gt;&lt;uv&gt;11&lt;/uv&gt;&lt;gust_mph&gt;26.6&lt;/gust_mph&gt;&lt;gust_kph&gt;42.8&lt;/gust_kph&gt;&lt;/current&gt;&lt;forecast&gt;&lt;forecastday&gt;&lt;date&gt;2020-05-02&lt;/date&gt;&lt;date_epoch&gt;1588377600&lt;/date_epoch&gt;&lt;day&gt;&lt;maxtemp_c&gt;16.6&lt;/maxtemp_c&gt;&lt;maxtemp_f&gt;61.9&lt;/maxtemp_f&gt;&lt;mintemp_c&gt;10.6&lt;/mintemp_c&gt;&lt;mintemp_f&gt;51.1&lt;/mintemp_f&gt;&lt;avgtemp_c&gt;13.6&lt;/avgtemp_c&gt;&lt;avgtemp_f&gt;56.5&lt;/avgtemp_f&gt;&lt;maxwind_mph&gt;19.7&lt;/maxwind_mph&gt;&lt;maxwind_kph&gt;31.7&lt;/maxwind_kph&gt;&lt;totalprecip_mm&gt;0.1&lt;/totalprecip_mm&gt;&lt;totalprecip_in&gt;0&lt;/totalprecip_in&gt;&lt;avgvis_km&gt;10&lt;/avgvis_km&gt;&lt;avgvis_miles&gt;6&lt;/avgvis_miles&gt;&lt;avghumidity&gt;58&lt;/avghumidity&gt;&lt;daily_will_it_rain&gt;0&lt;/daily_will_it_rain&gt;&lt;daily_chance_of_rain&gt;0&lt;/daily_chance_of_rain&gt;&lt;daily_will_it_snow&gt;0&lt;/daily_will_it_snow&gt;&lt;daily_chance_of_snow&gt;0&lt;/daily_chance_of_snow&gt;&lt;condition&gt;&lt;text&gt;Partly cloudy&lt;/text&gt;&lt;icon&gt;//cdn.weatherapi.com/weather/64x64/day/116.png&lt;/icon&gt;&lt;code&gt;1003&lt;/code&gt;&lt;/condition&gt;&lt;uv&gt;11&lt;/uv&gt;&lt;/day&gt;&lt;astro&gt;&lt;sunrise&gt;06:30 AM&lt;/sunrise&gt;&lt;sunset&gt;05:13 PM&lt;/sunset&gt;&lt;moonrise&gt;02:09 PM&lt;/moonrise&gt;&lt;moonset&gt;12:02 AM&lt;/moonset&gt;&lt;/astro&gt;&lt;/forecastday&gt;&lt;forecastday&gt;&lt;date&gt;2020-05-03&lt;/date&gt;&lt;date_epoch&gt;1588464000&lt;/date_epoch&gt;&lt;day&gt;&lt;maxtemp_c&gt;16.7&lt;/maxtemp_c&gt;&lt;maxtemp_f&gt;62.1&lt;/maxtemp_f&gt;&lt;mintemp_c&gt;10.7&lt;/mintemp_c&gt;&lt;mintemp_f&gt;51.3&lt;/mintemp_f&gt;&lt;avgtemp_c&gt;14.2&lt;/avgtemp_c&gt;&lt;avgtemp_f&gt;57.5&lt;/avgtemp_f&gt;&lt;maxwind_mph&gt;11.9&lt;/maxwind_mph&gt;&lt;maxwind_kph&gt;19.1&lt;/maxwind_kph&gt;&lt;totalprecip_mm&gt;0.1&lt;/totalprecip_mm&gt;&lt;totalprecip_in&gt;0&lt;/totalprecip_in&gt;&lt;avgvis_km&gt;10&lt;/avgvis_km&gt;&lt;avgvis_miles&gt;6&lt;/avgvis_miles&gt;&lt;avghumidity&gt;58&lt;/avghumidity&gt;&lt;daily_will_it_rain&gt;0&lt;/daily_will_it_rain&gt;&lt;daily_chance_of_rain&gt;0&lt;/daily_chance_of_rain&gt;&lt;daily_will_it_snow&gt;0&lt;/daily_will_it_snow&gt;&lt;daily_chance_of_snow&gt;0&lt;/daily_chance_of_snow&gt;&lt;condition&gt;&lt;text&gt;Partly cloudy&lt;/text&gt;&lt;icon&gt;//cdn.weatherapi.com/weather/64x64/day/116.png&lt;/icon&gt;&lt;code&gt;1003&lt;/code&gt;&lt;/condition&gt;&lt;uv&gt;11&lt;/uv&gt;&lt;/day&gt;&lt;astro&gt;&lt;sunrise&gt;06:31 AM&lt;/sunrise&gt;&lt;sunset&gt;05:12 PM&lt;/sunset&gt;&lt;moonrise&gt;02:47 PM&lt;/moonrise&gt;&lt;moonset&gt;01:10 AM&lt;/moonset&gt;&lt;/astro&gt;&lt;/forecastday&gt;&lt;/forecast&gt;&lt;alert /&gt;&lt;/root&gt;</div>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;root&gt;&lt;location&gt;&lt;name&gt;Sydney&lt;/name&gt;&lt;region&gt;New South Wales&lt;/region&gt;&lt;country&gt;Australia&lt;/country&gt;&lt;lat&gt;-33.88&lt;/lat&gt;&lt;lon&gt;151.22&lt;/lon&gt;&lt;tz_id&gt;Australia/Sydney&lt;/tz_id&gt;&lt;localtime_epoch&gt;1588393572&lt;/localtime_epoch&gt;&lt;localtime&gt;2020-05-02 14:26&lt;/localtime&gt;&lt;/location&gt;&lt;current&gt;&lt;last_updated_epoch&gt;1588392909&lt;/last_updated_epoch&gt;&lt;last_updated&gt;2020-05-02 14:15&lt;/last_updated&gt;&lt;temp_c&gt;19&lt;/temp_c&gt;&lt;temp_f&gt;66.2&lt;/temp_f&gt;&lt;is_day&gt;1&lt;/is_day&gt;&lt;condition&gt;&lt;text&gt;Sunny&lt;/text&gt;&lt;icon&gt;//cdn.weatherapi.com/weather/64x64/day/113.png&lt;/icon&gt;&lt;code&gt;1000&lt;/code&gt;&lt;/condition&gt;&lt;wind_mph&gt;28.6&lt;/wind_mph&gt;&lt;wind_kph&gt;46.1&lt;/wind_kph&gt;&lt;wind_degree&gt;270&lt;/wind_degree&gt;&lt;wind_dir&gt;W&lt;/wind_dir&gt;&lt;pressure_mb&gt;1002&lt;/pressure_mb&gt;&lt;pressure_in&gt;30.1&lt;/pressure_in&gt;&lt;precip_mm&gt;0&lt;/precip_mm&gt;&lt;precip_in&gt;0&lt;/precip_in&gt;&lt;humidity&gt;28&lt;/humidity&gt;&lt;cloud&gt;0&lt;/cloud&gt;&lt;feelslike_c&gt;19&lt;/feelslike_c&gt;&lt;feelslike_f&gt;66.2&lt;/feelslike_f&gt;&lt;vis_km&gt;10&lt;/vis_km&gt;&lt;vis_miles&gt;6&lt;/vis_miles&gt;&lt;uv&gt;11&lt;/uv&gt;&lt;gust_mph&gt;29.8&lt;/gust_mph&gt;&lt;gust_kph&gt;47.9&lt;/gust_kph&gt;&lt;/current&gt;&lt;forecast&gt;&lt;forecastday&gt;&lt;date&gt;2020-05-02&lt;/date&gt;&lt;date_epoch&gt;1588377600&lt;/date_epoch&gt;&lt;day&gt;&lt;maxtemp_c&gt;16.6&lt;/maxtemp_c&gt;&lt;maxtemp_f&gt;61.9&lt;/maxtemp_f&gt;&lt;mintemp_c&gt;10.6&lt;/mintemp_c&gt;&lt;mintemp_f&gt;51.1&lt;/mintemp_f&gt;&lt;avgtemp_c&gt;13.6&lt;/avgtemp_c&gt;&lt;avgtemp_f&gt;56.5&lt;/avgtemp_f&gt;&lt;maxwind_mph&gt;19.7&lt;/maxwind_mph&gt;&lt;maxwind_kph&gt;31.7&lt;/maxwind_kph&gt;&lt;totalprecip_mm&gt;0.1&lt;/totalprecip_mm&gt;&lt;totalprecip_in&gt;0&lt;/totalprecip_in&gt;&lt;avgvis_km&gt;10&lt;/avgvis_km&gt;&lt;avgvis_miles&gt;6&lt;/avgvis_miles&gt;&lt;avghumidity&gt;58&lt;/avghumidity&gt;&lt;daily_will_it_rain&gt;0&lt;/daily_will_it_rain&gt;&lt;daily_chance_of_rain&gt;0&lt;/daily_chance_of_rain&gt;&lt;daily_will_it_snow&gt;0&lt;/daily_will_it_snow&gt;&lt;daily_chance_of_snow&gt;0&lt;/daily_chance_of_snow&gt;&lt;condition&gt;&lt;text&gt;Partly cloudy&lt;/text&gt;&lt;icon&gt;//cdn.weatherapi.com/weather/64x64/day/116.png&lt;/icon&gt;&lt;code&gt;1003&lt;/code&gt;&lt;/condition&gt;&lt;uv&gt;11&lt;/uv&gt;&lt;/day&gt;&lt;astro&gt;&lt;sunrise&gt;06:30 AM&lt;/sunrise&gt;&lt;sunset&gt;05:13 PM&lt;/sunset&gt;&lt;moonrise&gt;02:09 PM&lt;/moonrise&gt;&lt;moonset&gt;12:02 AM&lt;/moonset&gt;&lt;/astro&gt;&lt;/forecastday&gt;&lt;forecastday&gt;&lt;date&gt;2020-05-03&lt;/date&gt;&lt;date_epoch&gt;1588464000&lt;/date_epoch&gt;&lt;day&gt;&lt;maxtemp_c&gt;16.7&lt;/maxtemp_c&gt;&lt;maxtemp_f&gt;62.1&lt;/maxtemp_f&gt;&lt;mintemp_c&gt;10.7&lt;/mintemp_c&gt;&lt;mintemp_f&gt;51.3&lt;/mintemp_f&gt;&lt;avgtemp_c&gt;14.2&lt;/avgtemp_c&gt;&lt;avgtemp_f&gt;57.5&lt;/avgtemp_f&gt;&lt;maxwind_mph&gt;11.9&lt;/maxwind_mph&gt;&lt;maxwind_kph&gt;19.1&lt;/maxwind_kph&gt;&lt;totalprecip_mm&gt;0.1&lt;/totalprecip_mm&gt;&lt;totalprecip_in&gt;0&lt;/totalprecip_in&gt;&lt;avgvis_km&gt;10&lt;/avgvis_km&gt;&lt;avgvis_miles&gt;6&lt;/avgvis_miles&gt;&lt;avghumidity&gt;58&lt;/avghumidity&gt;&lt;daily_will_it_rain&gt;0&lt;/daily_will_it_rain&gt;&lt;daily_chance_of_rain&gt;0&lt;/daily_chance_of_rain&gt;&lt;daily_will_it_snow&gt;0&lt;/daily_will_it_snow&gt;&lt;daily_chance_of_snow&gt;0&lt;/daily_chance_of_snow&gt;&lt;condition&gt;&lt;text&gt;Partly cloudy&lt;/text&gt;&lt;icon&gt;//cdn.weatherapi.com/weather/64x64/day/116.png&lt;/icon&gt;&lt;code&gt;1003&lt;/code&gt;&lt;/condition&gt;&lt;uv&gt;11&lt;/uv&gt;&lt;/day&gt;&lt;astro&gt;&lt;sunrise&gt;06:31 AM&lt;/sunrise&gt;&lt;sunset&gt;05:12 PM&lt;/sunset&gt;&lt;moonrise&gt;02:47 PM&lt;/moonrise&gt;&lt;moonset&gt;01:10 AM&lt;/moonset&gt;&lt;/astro&gt;&lt;/forecastday&gt;&lt;/forecast&gt;&lt;alert /&gt;&lt;/root&gt;</div>
 <div class="step-row">
 <div class="step-cell passed">Then status 200</div>
-<div class="time-cell passed">0.00001</div>
+<div class="time-cell passed">0.000008</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">And match responseType == 'xml'</div>
-<div class="time-cell passed">0.002206</div>
+<div class="time-cell passed">0.001891</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">* def xmlResponse = response</div>
-<div class="time-cell passed">0.000024</div>
+<div class="time-cell passed">0.000014</div>
 </div>
 <div class="step-row">
 <div class="step-cell passed">* print '====Xml response====' + response</div>
-<div class="time-cell passed">0.005453</div>
+<div class="time-cell passed">0.004379</div>
 </div>
-<div class="preformatted">11:47:37.755 [print] ====Xml response===={root={location={name=Sydney, region=New South Wales, country=Australia, lat=-33.88, lon=151.22, tz_id=Australia/Sydney, localtime_epoch=1588383055, localtime=2020-05-02 11:30}, current={last_updated_epoch=1588382109, last_updated=2020-05-02 11:15, temp_c=17, temp_f=62.6, is_day=1, condition={text=Sunny, icon=//cdn.weatherapi.com/weather/64x64/day/113.png, code=1000}, wind_mph=25.5, wind_kph=41, wind_degree=280, wind_dir=W, pressure_mb=1004, pressure_in=30.1, precip_mm=0, precip_in=0, humidity=32, cloud=0, feelslike_c=17, feelslike_f=62.6, vis_km=10, vis_miles=6, uv=11, gust_mph=26.6, gust_kph=42.8}, forecast={forecastday=[{date=2020-05-02, date_epoch=1588377600, day={maxtemp_c=16.6, maxtemp_f=61.9, mintemp_c=10.6, mintemp_f=51.1, avgtemp_c=13.6, avgtemp_f=56.5, maxwind_mph=19.7, maxwind_kph=31.7, totalprecip_mm=0.1, totalprecip_in=0, avgvis_km=10, avgvis_miles=6, avghumidity=58, daily_will_it_rain=0, daily_chance_of_rain=0, daily_will_it_snow=0, daily_chance_of_snow=0, condition={text=Partly cloudy, icon=//cdn.weatherapi.com/weather/64x64/day/116.png, code=1003}, uv=11}, astro={sunrise=06:30 AM, sunset=05:13 PM, moonrise=02:09 PM, moonset=12:02 AM}}, {date=2020-05-03, date_epoch=1588464000, day={maxtemp_c=16.7, maxtemp_f=62.1, mintemp_c=10.7, mintemp_f=51.3, avgtemp_c=14.2, avgtemp_f=57.5, maxwind_mph=11.9, maxwind_kph=19.1, totalprecip_mm=0.1, totalprecip_in=0, avgvis_km=10, avgvis_miles=6, avghumidity=58, daily_will_it_rain=0, daily_chance_of_rain=0, daily_will_it_snow=0, daily_chance_of_snow=0, condition={text=Partly cloudy, icon=//cdn.weatherapi.com/weather/64x64/day/116.png, code=1003}, uv=11}, astro={sunrise=06:31 AM, sunset=05:12 PM, moonrise=02:47 PM, moonset=01:10 AM}}]}, alert=null}}</div>
+<div class="preformatted">14:29:09.364 [print] ====Xml response===={root={location={name=Sydney, region=New South Wales, country=Australia, lat=-33.88, lon=151.22, tz_id=Australia/Sydney, localtime_epoch=1588393572, localtime=2020-05-02 14:26}, current={last_updated_epoch=1588392909, last_updated=2020-05-02 14:15, temp_c=19, temp_f=66.2, is_day=1, condition={text=Sunny, icon=//cdn.weatherapi.com/weather/64x64/day/113.png, code=1000}, wind_mph=28.6, wind_kph=46.1, wind_degree=270, wind_dir=W, pressure_mb=1002, pressure_in=30.1, precip_mm=0, precip_in=0, humidity=28, cloud=0, feelslike_c=19, feelslike_f=66.2, vis_km=10, vis_miles=6, uv=11, gust_mph=29.8, gust_kph=47.9}, forecast={forecastday=[{date=2020-05-02, date_epoch=1588377600, day={maxtemp_c=16.6, maxtemp_f=61.9, mintemp_c=10.6, mintemp_f=51.1, avgtemp_c=13.6, avgtemp_f=56.5, maxwind_mph=19.7, maxwind_kph=31.7, totalprecip_mm=0.1, totalprecip_in=0, avgvis_km=10, avgvis_miles=6, avghumidity=58, daily_will_it_rain=0, daily_chance_of_rain=0, daily_will_it_snow=0, daily_chance_of_snow=0, condition={text=Partly cloudy, icon=//cdn.weatherapi.com/weather/64x64/day/116.png, code=1003}, uv=11}, astro={sunrise=06:30 AM, sunset=05:13 PM, moonrise=02:09 PM, moonset=12:02 AM}}, {date=2020-05-03, date_epoch=1588464000, day={maxtemp_c=16.7, maxtemp_f=62.1, mintemp_c=10.7, mintemp_f=51.3, avgtemp_c=14.2, avgtemp_f=57.5, maxwind_mph=11.9, maxwind_kph=19.1, totalprecip_mm=0.1, totalprecip_in=0, avgvis_km=10, avgvis_miles=6, avghumidity=58, daily_will_it_rain=0, daily_chance_of_rain=0, daily_will_it_snow=0, daily_chance_of_snow=0, condition={text=Partly cloudy, icon=//cdn.weatherapi.com/weather/64x64/day/116.png, code=1003}, uv=11}, astro={sunrise=06:31 AM, sunset=05:12 PM, moonrise=02:47 PM, moonset=01:10 AM}}]}, alert=null}}</div>
 </div>
 </div>
 </body>

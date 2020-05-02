@@ -1,8 +1,6 @@
 # Language setting http://docs.shippable.com/ci/languages/node/
 language: java
-# version number
-jdk:
-  - oraclejdk8
+jdk: oraclejdk8
 
 # use this to control what branches get built.
 # http://docs.shippable.com/ci/advancedOptions/branches/
@@ -18,8 +16,10 @@ branches:
 #    - CODE_COVERAGE_DIR=$SHIPPABLE_REPO_DIR/shippable/codecoverage
 #    - TESTS_LOC_DIR=$SHIPPABLE_REPO_DIR/src/test/java/
 #    - MOD_LOC=$SHIPPABLE_REPO_DIR/node_modules/.bin/
-#
-#build:
+
+
+
+build:
 #
 #  cache: true
 #  cache_dir_list:
@@ -31,10 +31,14 @@ branches:
 #    pull: true
 #
 #
-#  ci:
-#    - sss
-#    - sss
-#
+  ci:
+    - mkdir -p shippable/testresults
+    - mkdir -p shippable/coverage
+    - mkdir -p shippable/yulitestresults
+    - shippable_retry mvn install
+    - cp -r target shippable/coverage
+    - cp -r target/surefile-reports shippable/yulitestresults
+
 #  post_ci:
 #    - sss
 #    - sss
