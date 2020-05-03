@@ -4,17 +4,6 @@
     <list default="true" id="faada2a6-1e08-40e8-8fa9-1c2c4337a1ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shippable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shippable.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yulikarate/test/testruns/DemoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yulikarate/test/testruns/DemoRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ForkJoinPool-1-worker-1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/main.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/main.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.weather.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/features.weather.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/results-json.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.features.weather.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.features.weather.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/src.test.resources.features.weather.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/DemoRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/DemoRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/DemoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/DemoRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
