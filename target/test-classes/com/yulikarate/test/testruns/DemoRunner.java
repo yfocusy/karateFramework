@@ -19,17 +19,8 @@ import org.junit.runner.RunWith;
 // way3:
 @CucumberOptions(
         features = {"classpath:features"},
-        tags = {"@t1"},
+        tags = {},
         format={"pretty","html:reports","json:report.json"})
-//@CucumberOptions(features={"classpath:features"},
-//        plugin={"pretty"},
-//        tags={"@t2","@t1"})
-
-// way4:
-//@CucumberOptions(
-//        features = {"classpath:features"},
-//        //tags={"~@wip", "@widget","@madpaws", "@envall,@test", "~@local"})
-//        tags={"@t2,"})
 
 
 //public class DemoRunner extends KarateRunner {

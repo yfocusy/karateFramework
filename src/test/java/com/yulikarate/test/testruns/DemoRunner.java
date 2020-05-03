@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
 // way3:
 @CucumberOptions(
         features = {"classpath:features"},
-        tags = {"@t1"},
+        tags = {},
         format={"pretty","html:reports","json:report.json"})
 
 

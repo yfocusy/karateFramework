@@ -33,7 +33,7 @@ build:
     - mkdir -p shippable/codecoverage
     - mkdir -p shippable/target
     - mkdir -p shippable/yulitarget
-    - echo "RUNNING BUILD"
+    - echo "RUNNING BUILD......................................."
     - echo "RUNNING AGAINST BUILD NUMBER:" $BUILD_NUMBER
     - echo "RUNNING AGAINST BUILD URL   :" $BUILD_URL
 
@@ -43,23 +43,21 @@ build:
     - cp -r $SHIPPABLE_BUILD_DIR/target ./shippable/target
     - cp -r $SHIPPABLE_BUILD_DIR/target/surefire-reports ./shippable/testresults
     - cp -r $SHIPPABLE_BUILD_DIR/target/surefire-reports ./shippable/codecoverage
-#    - echo "Checking Files"
-#    - pwd
-#    - ls
-#    - cd $SHIPPABLE_BUILD_DIR/target/cobertura
-#    - ls
-#    - cd $SHIPPABLE_BUILD_DIR/shippable/buildoutput
-#    - ls
-#    - cd $SHIPPABLE_BUILD_DIR/shippable/codecoverage
-#    - ls
-#    - cd $SHIPPABLE_BUILD_DIR/shippable/target
-#    - ls
-#    - cd $SHIPPABLE_BUILD_DIR/shippable/testresults
-#    - ls
-#    - cd target
-#    - ls
-#    - cd $SHIPPABLE_BUILD_DIR/shippable/target/cobertura
-#    - ls
+    - echo "Checking Files"
+    - pwd
+    - ls
+    - cd $SHIPPABLE_BUILD_DIR/target/cobertura
+    - ls
+    - cd $SHIPPABLE_BUILD_DIR/shippable/buildoutput
+    - ls
+    - cd $SHIPPABLE_BUILD_DIR/shippable/codecoverage
+    - ls
+    - cd $SHIPPABLE_BUILD_DIR/shippable/target
+    - ls
+    - cd $SHIPPABLE_BUILD_DIR/shippable/testresults
+    - ls
+    - cd $SHIPPABLE_BUILD_DIR/shippable/target/cobertura
+    - ls
 
   post_ci:
     - echo "Checking Files"
@@ -74,8 +72,6 @@ build:
     - cd $SHIPPABLE_BUILD_DIR/shippable/target
     - ls
     - cd $SHIPPABLE_BUILD_DIR/shippable/testresults
-    - ls
-    - cd target
     - ls
     - cd $SHIPPABLE_BUILD_DIR/shippable/target/cobertura
     - ls
