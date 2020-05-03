@@ -41,8 +41,9 @@ build:
 #    - shippable_retry mvn clean test -Dtest=DemoRunner cobertura:cobertura
     - shippable_retry mvn clean test -Dtest=ParallelRunner cobertura:cobertura
     - cp -r $SHIPPABLE_BUILD_DIR/target ./shippable/target
-    - cp -r $SHIPPABLE_BUILD_DIR/target/surefire-reports ./shippable/testresults
-    - cp -r $SHIPPABLE_BUILD_DIR/target/surefire-reports/*.xml ./shippable/codecoverage
+#    - cp -r $SHIPPABLE_BUILD_DIR/target/surefire-reports ./shippable/testresults
+#    - cp -r $SHIPPABLE_BUILD_DIR/target/surefire-reports/*.xml ./shippable/codecoverage
+    - cp -r $SHIPPABLE_BUILD_DIR/target/cucumber-html-reports ./shippable/testresults
     - echo "Checking Files"
     - pwd
     - ls
