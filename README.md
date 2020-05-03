@@ -2,6 +2,9 @@ echo # karatetest - API
 
 
 `mvn clean test -Dtest=DemoRunner`
+mvn test -Dcucumber.options="--tags @test" -Dtest=DemoRunner
+mvn test -Dkarate.options="--tags ~@ignore classpath:features" -Dtest=DemoRunner
+mvn test -Dkarate.options="--tags ~@ignore" -Dtest=DemoRunner
 
         <plugins>
             <plugin>

@@ -2,7 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faada2a6-1e08-40e8-8fa9-1c2c4337a1ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_owasp_java_html_sanitizer_owasp_java_html_sanitizer_20160924_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_lingala_zip4j_zip4j_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_masterthought_cucumber_reporting_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_0_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__velocity_tools_velocity_tools_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yulikarate/test/testruns/ParallelRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karatetest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/karatetest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shippable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shippable.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yulikarate/test/testruns/DemoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yulikarate/test/testruns/DemoRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/weather.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/weather.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/yulikarate/test/testruns" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -41,12 +66,13 @@
       <recent name="com.yulikarate.test.testruns" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/features" />
       <recent name="$PROJECT_DIR$/src/test/java/com/yulikarate/test/testruns" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DemoRunner">
+  <component name="RunManager" selected="JUnit.ParallelRunner">
     <configuration name="Feature: weather" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/weather.feature" />
@@ -95,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParallelRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="karatetest" />
       <extension name="coverage">
         <pattern>
@@ -104,7 +130,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yulikarate.test.testruns" />
-      <option name="MAIN_CLASS_NAME" value="com.yulikarate.test.testruns.SampleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.yulikarate.test.testruns.ParallelRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParallelRunner" />
         <item itemvalue="JUnit.DemoRunner" />
         <item itemvalue="Cucumber java.Feature: weather" />
         <item itemvalue="JUnit.DemoRunner2" />
         <item itemvalue="TestNG.WeatherRunner" />
-        <item itemvalue="JUnit.SampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,29 +197,29 @@
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
     <state x="1019" y="-744" key="#com.intellij.fileTypes.FileTypeChooser/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588404119778" />
-    <state width="1559" height="274" key="GridCell.Tab.0.bottom" timestamp="1588468290207">
-      <screen x="504" y="-1050" width="1680" height="1050" />
+    <state width="1559" height="315" key="GridCell.Tab.0.bottom" timestamp="1588483391698">
+      <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
     <state width="1559" height="274" key="GridCell.Tab.0.bottom/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588465857891" />
-    <state width="1559" height="274" key="GridCell.Tab.0.bottom/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588465152887" />
+    <state width="1559" height="315" key="GridCell.Tab.0.bottom/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588483391698" />
     <state width="1559" height="274" key="GridCell.Tab.0.bottom/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588468290207" />
-    <state width="1559" height="274" key="GridCell.Tab.0.center" timestamp="1588468290205">
-      <screen x="504" y="-1050" width="1680" height="1050" />
+    <state width="1559" height="315" key="GridCell.Tab.0.center" timestamp="1588483391696">
+      <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
     <state width="1559" height="274" key="GridCell.Tab.0.center/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588465857889" />
-    <state width="1559" height="274" key="GridCell.Tab.0.center/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588465152885" />
+    <state width="1559" height="315" key="GridCell.Tab.0.center/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588483391696" />
     <state width="1559" height="274" key="GridCell.Tab.0.center/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588468290205" />
-    <state width="1559" height="274" key="GridCell.Tab.0.left" timestamp="1588468290204">
-      <screen x="504" y="-1050" width="1680" height="1050" />
+    <state width="1559" height="315" key="GridCell.Tab.0.left" timestamp="1588483391695">
+      <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
     <state width="1559" height="274" key="GridCell.Tab.0.left/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588465857888" />
-    <state width="1559" height="274" key="GridCell.Tab.0.left/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588465152884" />
+    <state width="1559" height="315" key="GridCell.Tab.0.left/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588483391695" />
     <state width="1559" height="274" key="GridCell.Tab.0.left/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588468290204" />
-    <state width="1559" height="274" key="GridCell.Tab.0.right" timestamp="1588468290206">
-      <screen x="504" y="-1050" width="1680" height="1050" />
+    <state width="1559" height="315" key="GridCell.Tab.0.right" timestamp="1588483391697">
+      <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
     <state width="1559" height="274" key="GridCell.Tab.0.right/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588465857890" />
-    <state width="1559" height="274" key="GridCell.Tab.0.right/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588465152886" />
+    <state width="1559" height="315" key="GridCell.Tab.0.right/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588483391697" />
     <state width="1559" height="274" key="GridCell.Tab.0.right/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588468290206" />
     <state width="1559" height="313" key="GridCell.Tab.1.bottom" timestamp="1588405908951">
       <screen x="504" y="-1027" width="1680" height="1027" />
@@ -223,10 +249,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="380" y="108" width="1108" height="560" key="dock-window-1/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588406488084" />
-    <state x="969" y="-820" width="670" height="676" key="search.everywhere.popup" timestamp="1588404958066">
+    <state x="969" y="-820" width="670" height="676" key="search.everywhere.popup" timestamp="1588482025892">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
-    <state x="969" y="-820" width="670" height="676" key="search.everywhere.popup/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588404958066" />
+    <state x="969" y="-820" width="670" height="676" key="search.everywhere.popup/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588482025892" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/karatetest$DemoRunner.ic" NAME="DemoRunner Coverage Results" MODIFIED="1588395917645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

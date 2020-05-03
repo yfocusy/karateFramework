@@ -20,7 +20,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"classpath:features"},
         tags = {},
-        format={"pretty","html:reports","json:report.json"})
+        format={"pretty","html:target/yulireports","json:target/yulireport.json"},
+        monochrome = true
+)
 
 
 //public class DemoRunner extends KarateRunner {
