@@ -28,3 +28,8 @@ echo # karatetest - API
         
         
         
+        yml:
+        https://github.com/vgaidarji/ci-matters/blob/f38cb9be105e346466567842b8507a5c6b210a59/SHIPPABLE.md
+        
+        
+        
