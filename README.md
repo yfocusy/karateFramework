@@ -20,3 +20,11 @@ echo # karatetest - API
                 </excludes>
             </testResource>
         </testResources>
+        
+        
+        
+        https://github.com/damianszczepanik/cucumber-reporting
+        https://www.coder.work/article/874426
+        
+        
+        

@@ -33,6 +33,9 @@ build:
     - mkdir -p shippable/codecoverage
     - mkdir -p shippable/target
     - mkdir -p shippable/yulitarget
+    - echo "RUNNING BUILD"
+    - echo "RUNNING AGAINST BUILD NUMBER: $BUILD_NUMBER"
+    - echo "RUNNING AGAINST BUILD URL   : $BUILD_URL"
 
   ci:
     - shippable_retry mvn clean install

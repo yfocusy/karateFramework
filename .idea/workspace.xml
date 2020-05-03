@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faada2a6-1e08-40e8-8fa9-1c2c4337a1ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_tomakehurst_wiremock_standalone_2_18_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/karatetest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/karatetest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shippable.yml" beforeDir="false" afterPath="$PROJECT_DIR$/shippable.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/main.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.yulikarate.test.testruns.DemoRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.yulikarate.test.testruns.DemoRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/features.weather.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yulikarate/test/testruns/DemoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yulikarate/test/testruns/DemoRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/DemoRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/DemoRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/DemoRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yulikarate/test/testruns/DemoRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +55,24 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DemoRunner">
+    <configuration name="Feature: weather" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/weather.feature" />
+      <option name="GLUE" value="com.intuit.karate" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="karatetest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: weather" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="karatetest" />
       <extension name="coverage">
@@ -97,23 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoRunner" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="karatetest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yulikarate.test.testruns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.yulikarate.test.testruns" />
-      <option name="MAIN_CLASS_NAME" value="com.yulikarate.test.testruns.DemoRunner" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WeatherRunner" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="karatetest" />
       <extension name="coverage">
@@ -134,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DemoRunner" />
+        <item itemvalue="Cucumber java.Feature: weather" />
         <item itemvalue="JUnit.DemoRunner2" />
         <item itemvalue="TestNG.WeatherRunner" />
         <item itemvalue="JUnit.SampleTest" />
-        <item itemvalue="TestNG.DemoRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -167,38 +171,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="769" y="-891" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588405873812">
+    <state x="769" y="-891" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588464852143">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
-    <state x="769" y="-891" key="#com.intellij.execution.impl.EditConfigurationsDialog/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588405873812" />
+    <state x="769" y="-891" key="#com.intellij.execution.impl.EditConfigurationsDialog/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588464852143" />
     <state x="1019" y="-744" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588404119778">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
     <state x="1019" y="-744" key="#com.intellij.fileTypes.FileTypeChooser/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588404119778" />
-    <state width="1559" height="338" key="GridCell.Tab.0.bottom" timestamp="1588408437763">
+    <state width="1559" height="274" key="GridCell.Tab.0.bottom" timestamp="1588465857891">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
-    <state width="1559" height="313" key="GridCell.Tab.0.bottom/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501319" />
-    <state width="1559" height="338" key="GridCell.Tab.0.bottom/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588408437763" />
-    <state width="1559" height="320" key="GridCell.Tab.0.bottom/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588395454887" />
-    <state width="1559" height="338" key="GridCell.Tab.0.center" timestamp="1588408437761">
+    <state width="1559" height="274" key="GridCell.Tab.0.bottom/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588465857891" />
+    <state width="1559" height="274" key="GridCell.Tab.0.bottom/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588465152887" />
+    <state width="1559" height="274" key="GridCell.Tab.0.bottom/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588465737242" />
+    <state width="1559" height="274" key="GridCell.Tab.0.center" timestamp="1588465857889">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
-    <state width="1559" height="313" key="GridCell.Tab.0.center/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501317" />
-    <state width="1559" height="338" key="GridCell.Tab.0.center/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588408437761" />
-    <state width="1559" height="320" key="GridCell.Tab.0.center/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588395454885" />
-    <state width="1559" height="338" key="GridCell.Tab.0.left" timestamp="1588408437760">
+    <state width="1559" height="274" key="GridCell.Tab.0.center/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588465857889" />
+    <state width="1559" height="274" key="GridCell.Tab.0.center/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588465152885" />
+    <state width="1559" height="274" key="GridCell.Tab.0.center/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588465737240" />
+    <state width="1559" height="274" key="GridCell.Tab.0.left" timestamp="1588465857888">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
-    <state width="1559" height="313" key="GridCell.Tab.0.left/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501316" />
-    <state width="1559" height="338" key="GridCell.Tab.0.left/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588408437760" />
-    <state width="1559" height="320" key="GridCell.Tab.0.left/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588395454884" />
-    <state width="1559" height="338" key="GridCell.Tab.0.right" timestamp="1588408437762">
+    <state width="1559" height="274" key="GridCell.Tab.0.left/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588465857888" />
+    <state width="1559" height="274" key="GridCell.Tab.0.left/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588465152884" />
+    <state width="1559" height="274" key="GridCell.Tab.0.left/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588465737239" />
+    <state width="1559" height="274" key="GridCell.Tab.0.right" timestamp="1588465857890">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
-    <state width="1559" height="313" key="GridCell.Tab.0.right/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588395501318" />
-    <state width="1559" height="338" key="GridCell.Tab.0.right/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588408437762" />
-    <state width="1559" height="320" key="GridCell.Tab.0.right/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588395454886" />
+    <state width="1559" height="274" key="GridCell.Tab.0.right/504.-1027.1680.1027/0.0.1680.1050@504.-1027.1680.1027" timestamp="1588465857890" />
+    <state width="1559" height="274" key="GridCell.Tab.0.right/504.-1027.1680.1027/0.23.1680.1027@504.-1027.1680.1027" timestamp="1588465152886" />
+    <state width="1559" height="274" key="GridCell.Tab.0.right/504.-1050.1680.1050/0.0.1680.1050@504.-1050.1680.1050" timestamp="1588465737242" />
     <state width="1559" height="313" key="GridCell.Tab.1.bottom" timestamp="1588405908951">
       <screen x="504" y="-1027" width="1680" height="1027" />
     </state>
